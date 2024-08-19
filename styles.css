@@ -21,7 +21,7 @@ body {
 .nav-menu li {
     list-style-type: none;
     padding: 0px 2px;
-    border-bottom: 2px solid #fbfefc;
+    border-bottom: 2px solid hsla(143, 57%, 51%, 0);
 }
 
 .nav-menu li:hover {
@@ -32,6 +32,7 @@ body {
 
 .header {
     padding: 8px 96px;
+    background-color: hsla(143, 57%, 51%, 0.185);
     color: #050d08;
     display: flex;
     justify-content: space-between;
@@ -50,6 +51,7 @@ body {
 
 .main-section {
     color: #050d08;
+    background-color: hsla(143, 57%, 51%, 0.185);
     display: flex;
     padding: 48px;
     justify-content: space-around;
@@ -93,6 +95,7 @@ body {
 }
 
 .recipe-section {
+    margin-top: 48px;
     display: flex;
     flex-direction: column;
 }

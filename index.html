@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/chef.png" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin Recipes</title>
-</head>
-<body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/korean-fried-chicken.html">Korean Fried Chicken Recipe</a>
-        </li>
-        <li><a href="./recipes/tonkatsu.html">Tonkatsu - Asian-Style Pork Chop Recipe</a>
-        </li>
-        <li><a href="./recipes/char-siu.html">Char Siu (Chinese BBQ Pork) Recipe</a>
-        </li>
-    </ul>
-</body>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1>Odin Recipes</h1>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li>Home</li>
+          <li>Recipes</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="left-main">
+        <h1>
+          Elevate Your <span class="cooking-effect">Cooking Game</span> with
+          <span class="delicious-effect">Delicious Recipes!</span>
+        </h1>
+        <p>
+          Discover a curated collection of mouthwatering recipes, from quick
+          weeknight dinners to gourmet feasts. With step-by-step instructions,
+          high-quality images, and expert tips, cooking has never been this
+          enjoyable. Explore our recipe library now and turn every meal into a
+          culinary adventure!
+        </p>
+        <button class="explore-btn">Explore Recipes</button>
+      </div>
+      <div class="right-main">
+        <img
+          src="images/spare-ribs.png"
+          alt="Image of spare ribs on plate"
+          width="100%"
+        />
+      </div>
+    </div>
+    <div class="recipe-section">
+      <div class="recipe-header">
+        <h1>Popular Recipes of the Week</h1>
+        <p>Our most popular recipes of the week</p>
+      </div>
+      <div class="recipe-cards">
+        <a href="/recipes/korean-fried-chicken.html" class="card-link">
+          <div class="card">
+            <img
+              src="images/kr-fried-chicken.jpg"
+              alt="Korean Fried Chicken"
+              width="100%"
+              height="300px"
+            />
+            <h2>Korean Fried Chicken in a bowl</h2>
+            <p>By John Mitzewich</p>
+          </div>
+        </a>
+        <a href="/recipes/tonkatsu.html" class="card-link">
+          <div class="card">
+            <img
+              src="/images/tonkatsu.jpg"
+              alt="Tonkatsu on a plate"
+              width="100%"
+              height="300px"
+            />
+            <h2>Tonkatsu - Asian-Style Pork Chop</h2>
+            <p>By SHIN98</p>
+          </div>
+        </a>
+        <a href="/recipes/char-siu.html" class="card-link">
+          <div class="card">
+            <img
+              src="images/char-siu.jpg"
+              alt="Charsiu on a plate"
+              width="100%"
+              height="300px"
+            />
+            <h2>Char Siu (Chinese BBQ Pork)</h2>
+            <p>By David&Andrea</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2024 Your Company Name | <span>Privacy Policy</span> | <span>Terms of Service</span></p>
+    </div>
+  </body>
 </html>

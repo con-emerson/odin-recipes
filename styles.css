@@ -6,6 +6,11 @@
     /* outline: 1px solid green; */
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 :root {
     --clr-txt: #050d08;
     --clr-bg: #fbfefc;

@@ -100,7 +100,7 @@ body {
 }
 
 .explore-btn:hover {
-    background-color: #3cc972d2;
+    color: var(--clr-bg);
 }
 
 .explore-btn {
@@ -134,14 +134,17 @@ body {
     gap: 48px;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: var(--clr-acc);
+    /* background-color: var(--clr-acc); */
     padding: 24px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
-.card img {
-    border-radius: 10px;
-    margin-top: 24px;
+.card-link {
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.card-content {
+    padding: 12px;
 }
 
 .recipe-header p,

@@ -8,16 +8,24 @@
     <title>Odin Recipes</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="home">
       <div class="logo">
-        <img src="images/chef.png" alt="Chef Hat Icon"
-        width="30px" height="30px">
+        <img
+          src="images/chef.png"
+          alt="Chef Hat Icon"
+          width="30px"
+          height="30px"
+        />
         <h1>Odin Recipes</h1>
       </div>
       <div class="nav-menu">
         <ul>
-          <li>Home</li>
-          <li>Recipes</li>
+          <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#recipes">
+            <li>Recipes</li>
+          </a>
           <li>About Us</li>
         </ul>
       </div>
@@ -35,17 +43,20 @@
           enjoyable. Explore our recipe library now and turn every meal into a
           culinary adventure!
         </p>
-        <button class="explore-btn">Explore Recipes</button>
+        <a href="#recipes">
+          <button class="explore-btn">Explore Recipes</button>
+        </a>
       </div>
       <div class="right-main">
         <img
           src="images/spare-ribs.png"
           alt="Image of spare ribs on plate"
-          width="100%" min-height="500px"
+          width="100%"
+          min-height="500px"
         />
       </div>
     </div>
-    <div class="recipe-section">
+    <div class="recipe-section" id="recipes">
       <div class="recipe-header">
         <h1>Popular Recipes of the Week</h1>
         <p>Our most popular recipes of the week</p>
@@ -90,7 +101,10 @@
       </div>
     </div>
     <div class="footer">
-      <p>© 2024 Your Company Name | <span>Privacy Policy</span> | <span>Terms of Service</span></p>
+      <p>
+        © 2024 Your Company Name | <span>Privacy Policy</span> |
+        <span>Terms of Service</span>
+      </p>
     </div>
   </body>
 </html>

@@ -19,6 +19,10 @@ img {
     --clr-acc: #86e3ab;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--clr-bg);
     color: var(--clr-txt);
@@ -34,7 +38,7 @@ body {
 .nav-menu li {
     list-style-type: none;
     padding: 0px 2px;
-    border-bottom: 2px solid var(--clr-bg);
+    border-bottom: 2px solid transparent;
 }
 
 .nav-menu li:hover {
@@ -93,6 +97,10 @@ body {
     font-size: 18px;
     max-width: 65ch;
     margin-top: 12px;
+}
+
+.explore-btn:hover {
+    background-color: #3cc972d2;
 }
 
 .explore-btn {
